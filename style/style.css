@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* Basic styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/**  Setting the font for the whole website */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+}
+
+/** removing the bullet from whole website for list*/
+ul {
+    list-style-type: none;
+}
+
+
+.card {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.container {
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+
+.header {
+    height: 50px;
+    text-align: center;
+    overflow: auto;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+    width: 100%;
+    color: white;
+    background-color: #3674d1;
+}
+
+.disable {
+    text-decoration: line-through;
+    color: rgb(190, 184, 184);
+}
+
+ 
+.form {
+  padding : 10px 10px;
+}
+
+.list {
+    padding: 10px 10px;
+    
+}
+
+.list-element {
+
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px;
+}
+
+
+.list-element button {
+    background-color: #e24515;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+.form input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    background-color: white;
+    color: black;
+}
+
+.form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+
+.bottom-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  margin: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.bottom-element {
+position: absolute;
+bottom: 10px;
+}
+
+
+
+
+
